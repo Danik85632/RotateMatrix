@@ -36,6 +36,7 @@ namespace ConsoleApp6
                 {
                     if (i > j)
                     {
+                        //test
                         if (j - i > input[i] + input[j])
                         {
                             intersect.Add(new Tuple<int, int>(i, j));
